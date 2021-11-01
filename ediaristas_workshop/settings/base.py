@@ -26,7 +26,11 @@ SECRET_KEY = 'django-insecure-cdlre=49wz7xolb(kfgdlhjv4#_e6tjd9=w@0qj3o%#dp+sjre
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '*',
+    '127.0.0.1',
+    'https://evening-sea-66555.herokuapp.com'
+]
 
 
 # Application definition
